@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #343a40;
+}
+
+header a.navbar-brand img {
+    filter: brightness(150%);
+}
+
+header a.navbar-brand:hover img {
+    filter: brightness(100%);
+}
+
+header .navbar-nav .nav-link {
+    color: #fff;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+#inicio {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+#inicio img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+#inicio .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#sobre-nosotros {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#sobre-nosotros h2 {
+    color: #343a40;
+}
+
+#footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0; /* Añadido el cierre de la regla 'padding' */
+}
+
+#carouselServicios {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(41, 41, 42, 0.8); /* Cambiado el color y agregada la opacidad */
+    padding: 10px;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 25px;
+}
+
+.btn-contact {
+    font-size: 1.5em;
+}
