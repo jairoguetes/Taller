@@ -94,10 +94,22 @@ header .navbar-nav .nav-link:hover {
 }
 
 .text-p {
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .btn-contact {
-    font-size: 1.5em;
+    font-size: .5em;
 }
 
+.btn-smll{
+    font-size: 16px; 
+    padding: 5px 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-body {
+    flex: 1;
+}
